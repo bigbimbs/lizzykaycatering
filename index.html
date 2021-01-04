@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/index.css" type="text/css">
+    </head>
+    <body>
+        <div class="section-one">
+            <div class="logo">
+                <h4>LizzyKay Catering</h4>
+                <p>Pampering Your Taste</p>
+            </div>
+            <div id="toggleIcon" onclick="menuToggle()"></div>
+            <div id="menu-overlay">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#contactus">Contact Us</a></li>
+                </ul>
+            </div>
+            <nav id="bigScreen">
+                <a href="#">Home</a>
+                <a href="#aboutus">About Us</a>
+                <a href="#contactus">Contact Us</a>
+            </nav>
+        </div>
+        
+        <div class="section-two">
+            <h2>The Basic Thesis Of Our Existence <br> Is To Pamper Your Taste!!!</h2>
+            <img src="./img/jollof rice bowl.png" id="jollofbigbowl">
+            <img src="./img/arrow image.png" id="blackarrow">
+            <button><a href='#contactus'>Order Now</a></button>
+        </div>
+
+        <div class="section-three">
+            
+            <div class="section-three-firstbox">
+                <h3>We Are Simply The Best<br>At What We do</h3>
+                <img src="img/jollof-rice.png">
+            </div>
+            <div class="section-three-secondbox">
+                <h3>We Are The Perfect Solution<br>For Any Occassion or Event</h3>
+                <img src="./img/Veg & Egusi soup 2.png">
+            </div>
+        </div>
+
+        <div class="section-four" id="aboutus">
+            <h2>Celebrating Taste Since 2004</h2>
+            <p>We Fill Every Occassion With Great Food & Services And We Pamper Your Taste Affordable</p>
+            <img src="./img/898-8982929_nigerian-cuisine-nigerian-food-catering.png" alt="">
+        </div>
+
+        <div class="section-five" id="contactus">
+            <div class="section-five-sub">
+                <div><i class="fa fa-phone" aria-hidden="true"></i><p>08020977847, 08172918305</p></div>
+            </div>
+            <div class="section-five-sub">
+                <div><i class="fa fa-envelope-o" aria-hidden="true"></i><p>Lizzykaycatering@gmail.com</p></div>
+            </div>
+            <div class="section-five-sub">
+                <div><i class="fa fa-facebook-official" aria-hidden="true"></i><p style="margin-right: 15px;">Lizzykaycatering</p> <i class="fa fa-instagram" aria-hidden="true"></i><p>Lizzykaycatering</p></div>
+            </div>
+            <div class="section-five-sub">
+                <div><i class="fa fa-map-marker" aria-hidden="true"></i><p>8, Osewa Street, Ori-okuta, Agric, Ikorodu, Lagos State</p></div>
+            </div>
+            <div class="section-five-sub">
+                <div><i class="fa fa-copyright" aria-hidden="true"></i><p>Lizzykaycatering 2021</p></div>
+            </div>
+        </div>
+        <script src="./js/index.js" type="application/javascript"></script>
+        <script type="text/javascript">
+            function menuToggle(){
+                var nav = document.getElementById('menu-overlay');
+                nav.classList.toggle('active');
+                var nav = document.getElementById('toggleIcon');
+                nav.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
