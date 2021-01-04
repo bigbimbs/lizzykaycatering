@@ -402,3 +402,20 @@
         width: 300px;
     }
 }
+@media screen and (max-width: 600px) {
+    .section-two #jollofbigbowl {
+        max-width: 200px;
+        display: block;
+        margin: auto;
+    }
+    .section-three {
+    padding: 50px 100px;
+    background-color: #e4dee486;
+    display: flex;
+    }
+    .section-four img {
+        display: block;
+        margin: auto;
+        width: 200px;
+    }
+}
